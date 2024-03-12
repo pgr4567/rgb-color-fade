@@ -1,6 +1,6 @@
 {
   "name": "@chriscodesthings/rgb-color-fade",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Lightens or darkens an RGB or RGBA color towards white or black",
   "keywords": [
     "rgb",
