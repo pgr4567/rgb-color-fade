@@ -1,52 +1,53 @@
 {
-  "name": "@chriscodesthings/rgb-color-fade",
-  "version": "1.0.0",
-  "description": "Lightens or darkens an RGB or RGBA color towards white or black",
-  "keywords": [
-    "rgb",
-    "color",
-    "fade",
-    "lighten",
-    "darken"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ChrisCodesThings/rgb-color-fade.git"
-  },
-  "main": "index.js",
-  "type": "module",
-  "files": [
-    "/CHANGELOG.md",
-    "/index.js",
-    "/src",
-    "/dist"
-  ],
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "bugs": {
-    "url": "https://github.com/ChrisCodesThings/rgb-color-fade/issues"
-  },
-  "scripts": {
-    "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
-    "version": "auto-changelog -p && git add CHANGELOG.md",
-    "postversion": "git push && git push --tags"
-  },
-  "dependencies": {
-    "@chriscodesthings/color-looks-like-rgba": "^1.0.1"
-  },
-  "devDependencies": {
-    "auto-changelog": "^2.4.0",
-    "jest": "^29.7.0"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "author": {
-    "name": "Chris Dabrowa",
-    "email": "fanmail@chris.dabrowa.uk",
-    "url": "http://chris.dabrowa.uk/code"
-  },
-  "contributors": [],
-  "license": "MIT"
+    "name": "@chriscodesthings/rgb-color-fade",
+    "version": "1.0.1",
+    "description": "Lightens or darkens an RGB or RGBA color towards white or black",
+    "keywords": [
+        "rgb",
+        "color",
+        "fade",
+        "lighten",
+        "darken"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ChrisCodesThings/rgb-color-fade.git"
+    },
+    "main": "index.js",
+    "types": "index.d.ts",
+    "type": "module",
+    "files": [
+        "/CHANGELOG.md",
+        "/index.js",
+        "/src",
+        "/dist"
+    ],
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "bugs": {
+        "url": "https://github.com/ChrisCodesThings/rgb-color-fade/issues"
+    },
+    "scripts": {
+        "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
+        "version": "auto-changelog -p && git add CHANGELOG.md",
+        "postversion": "git push && git push --tags"
+    },
+    "dependencies": {
+        "@chriscodesthings/color-looks-like-rgba": "^1.0.1"
+    },
+    "devDependencies": {
+        "auto-changelog": "^2.4.0",
+        "jest": "^29.7.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "author": {
+        "name": "Chris Dabrowa",
+        "email": "fanmail@chris.dabrowa.uk",
+        "url": "http://chris.dabrowa.uk/code"
+    },
+    "contributors": [],
+    "license": "MIT"
 }
