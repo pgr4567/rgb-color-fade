@@ -5,6 +5,6 @@ declare module '@chriscodesthings/color-looks-like-rgba' {
 
 declare function diff(n1: number, n2: number): number;
 
-declare function modifyRGBA(rgba: string, f?: number): number[] | undefined;
+declare function modifyRGBA(rgba: number[], f?: number): number[] | undefined;
 
 export default modifyRGBA;
